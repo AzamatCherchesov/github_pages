@@ -2,7 +2,7 @@ site_name: Proper Android UI Testing
 repo_url: https://github.com/android-ui-testing/Cookbook
 repo_name: Cookbook
 edit_uri: tree/main/docs/content
-docs_dir: 'docs/content'
+docs_dir: 'docs'
 remote_branch: gh-pages
 language: en
 
