@@ -1,72 +1,25 @@
-site_name: "Kaspresso"
-repo_url: https://github.com/KasperskyLab/Kaspresso
-repo_name: Kaspresso
+
+site_name: Proper Android UI Testing
 
 theme:
-  favicon: kaspresso.png
-  logo: kaspresso.png
+  name: 'material'
   icon:
     logo: fontawesome/brands/android
 
-  palette:
-    - scheme: default
-      primary: teal
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: black
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-
-
-  name: null
-  custom_dir: ../mkdocs-material/material
-
-  # 404 page
-  static_templates:
-    - ../mkdocs-material/material/404.html
-
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  font:
-    text: Roboto
-    code: Roboto Mono
- # favicon: assets/favicon.png
-  
-  features:
-    - navigation.tabs
-    - content.code.annotate
-    - navigation.tabs.sticky
-    - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - search.suggest
-    - search.highlight
-
-nav:
-  - Home:
-    - Home/index.md
-  - Documentation:
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
-  - Tutorial:
-    - 1: Tutorial/1.md
-    - 2: Tutorial/2.md
-    - 3: Tutorial/3.md
-
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Russian
-      link: /ru/
-      lang: ru
+markdown_extensions:
+  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
