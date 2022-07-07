@@ -1,25 +1,26 @@
-
 site_name: Proper Android UI Testing
+repo_url: https://github.com/android-ui-testing/Cookbook
+repo_name: Cookbook
+edit_uri: tree/main/docs/content
+docs_dir: 'docs/content'
+remote_branch: gh-pages
+language: en
 
 theme:
   name: 'material'
   icon:
     logo: fontawesome/brands/android
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
-markdown_extensions:
-  - def_list
-  - attr_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.snippets
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  features:
+    - navigation.tabs
+    - content.code.annotate
