@@ -1,6 +1,10 @@
 site_name: "Kaspresso"
 repo_url: https://github.com/KasperskyLab/Kaspresso
 repo_name: Kaspresso
+edit_uri: tree/main/docs/content
+docs_dir: 'docs'
+remote_branch: gh-pages
+language: en
 
 theme:
   favicon: kaspresso.png
@@ -22,8 +26,8 @@ theme:
         name: Switch to light mode
 
 
-  name: null
-  custom_dir: ../mkdocs-material/material
+  name: 'material'
+#  custom_dir: ../mkdocs-material/material
 
   # 404 page
   static_templates:
