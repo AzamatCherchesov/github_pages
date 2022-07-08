@@ -2,7 +2,7 @@
 
 Начнем с написания теста на простой экран:
 
-![alt text](images/First_tutorial_screen.png "Page object example")
+![alt text](images/First_tutorial_screen.png "Page object example")  width="140"
 
 Экран состоит из:
 - Заголовка `TextView`
