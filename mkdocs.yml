@@ -62,9 +62,7 @@ nav:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
     - Page object pattern in Kaspresso: Documentation/PageObject.md
   - Tutorial:
-    - 1: Tutorial/1.md
-    - 2: Tutorial/2.md
-    - 3: Tutorial/3.md
+    - Ваш первый тест на Kaspresso: Tutorial/1.md
 
 extra:
   alternate:
