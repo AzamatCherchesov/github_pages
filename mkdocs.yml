@@ -67,11 +67,11 @@ nav:
     - Скриншот-тесты: Tutorial/Kaspresso_screenshots.md
     - Использование Allure: Tutorial/Kaspresso_with_allure.md
 
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Russian
-      link: /ru/
-      lang: ru
+#extra:
+#  alternate:
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: Russian
+#      link: /ru/
+#      lang: ru
