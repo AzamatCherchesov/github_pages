@@ -61,6 +61,8 @@ nav:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
   - Tutorial:
     - Ваш первый тест на Kaspresso: Tutorial/simple_test.md
+    - Анализ результата прогона теста: Tutorial/test_analysis.md
+    - Тестирование за рамками приложения: Tutorial/off-screen_work.md
     - Конфигурирование Kaspresso: Tutorial/Kaspresso_configurator.md
     - Использование сценариев в Kaspresso: Tutorial/Kaspresso_scenario.md
     - Выполнение adb-команд: Tutorial/adb_commands.md
