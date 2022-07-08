@@ -59,8 +59,6 @@ nav:
     - Home/index.md
   - Documentation:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
   - Tutorial:
     - Ваш первый тест на Kaspresso: Tutorial/1.md
 
