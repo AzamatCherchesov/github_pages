@@ -56,7 +56,7 @@ theme:
 
 nav:
   - Home:
-    - Home/index.md
+    - Home/Kaspresso.md
   - Documentation:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
   - Tutorial:
