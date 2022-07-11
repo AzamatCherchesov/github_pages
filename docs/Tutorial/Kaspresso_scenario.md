@@ -4,7 +4,7 @@
 <br/> В качестве примера для Scenario можно привести Login. Если в большом количестве тестов требуется выполнить вход в аккаунт, то можно повторяющуюся последовательность шагов вынести в общий Scenraio. 
 
 ```kotlin
-    class LoginScenario(private val account: Account): Scenario() {
+class LoginScenario(private val account: Account): Scenario() {
 
     override val steps: TestContext<Unit>.() -> Unit = {
         MainScreen {
@@ -27,21 +27,19 @@
 
 <br/> Использование из кода теста:
 ```kotlin
-    @Test
-    fun test() =
-        before {
+@Test
+fun test() =
+    before {
+    
+    }.after {
 
-        }.after {
-
-        }.run {
-            step("Some step") {
-                SomeScreen {
-                    ...
-                    scenario(MykSignInScenarioWithActivation(testAccount1))
-                    ...
-                }
+    }.run {
+        step("Some step") {
+            SomeScreen {
+                ...
+                scenario(MykSignInScenarioWithActivation(testAccount1))
+                ...
             }
         }
-    
-}
+    }
 ```
