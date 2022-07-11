@@ -41,7 +41,7 @@ dependencies {
 ```
 
 ## Написание теста начнем с создания Page object для текущего экрана.
-<br> Про паттерн PageObject в Kaspresso можно прочитать [здесь](https://azamatcherchesov.github.io/github_pages/Documentation/PageObject/).
+<br/> Про паттерн PageObject в Kaspresso можно прочитать в [документации](https://azamatcherchesov.github.io/github_pages/Documentation/PageObject/).<br/>
 <br/> В папке `androidTest` создаем объект `SimpleScreen`
 
 ```kotlin
