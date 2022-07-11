@@ -3,6 +3,8 @@
 Начнем с написания теста на простой экран:
 
 <img src="../images/First_tutorial_screen.png" alt="Page object example" width="200"/>
+
+
 ![Simple Activity](../images/First_tutorial_screen.png "Simple Activity")
 
 <br> Экран состоит из:
