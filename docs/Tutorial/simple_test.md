@@ -4,9 +4,6 @@
 
 <img src="../images/First_tutorial_screen.png" alt="Page object example" width="200"/>
 
-
-![Simple Activity](../images/First_tutorial_screen.png "Simple Activity")
-
 <br> Экран состоит из:
 <br> 1. *Заголовка `TextView`*
 <br> 2. *Поля ввода `EditText`*
