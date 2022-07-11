@@ -4,12 +4,12 @@
 
 <img src="images/First_tutorial_screen.png" alt="Page object example" width="200"/>
 
-Экран состоит из:
+<br> Экран состоит из:
 1. *Заголовка `TextView`*
 2. *Поля ввода `EditText`*
 3. *Кнопки `Button`*
 
-При нажатии на кнопку текст в заголовке меняется на введенный в поле ввода.
+<br> При нажатии на кнопку текст в заголовке меняется на введенный в поле ввода.
 
 ## Подключаем Kaspresso к проекту
 
@@ -31,7 +31,7 @@ dependencies {
 }
 ```
 
-Если Вы используете Android Support, мы рекомендуем мигрировать на AndroidX. Последняя поддерживаемая версия для Android Supprot:
+<br> Если Вы используете Android Support, мы рекомендуем мигрировать на AndroidX. Последняя поддерживаемая версия для Android Supprot:
 
 ```groovy
 dependencies {
