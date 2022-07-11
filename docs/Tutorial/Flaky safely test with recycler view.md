@@ -1,1 +1,1 @@
-
+# Нестабильный recycler view. Сontinuously, compose.
