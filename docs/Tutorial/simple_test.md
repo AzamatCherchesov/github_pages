@@ -5,9 +5,9 @@
 <img src="images/First_tutorial_screen.png" alt="Page object example" width="200"/>
 
 <br> Экран состоит из:
-1. *Заголовка `TextView`*
-2. *Поля ввода `EditText`*
-3. *Кнопки `Button`*
+<br> 1. *Заголовка `TextView`*
+<br> 2. *Поля ввода `EditText`*
+<br> 3. *Кнопки `Button`*
 
 <br> При нажатии на кнопку текст в заголовке меняется на введенный в поле ввода.
 
