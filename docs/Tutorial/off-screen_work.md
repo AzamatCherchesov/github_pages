@@ -18,15 +18,15 @@ object GplayScreen: UiScreen<GplayScreen>() {
 <br/> Переопределение `packageName` необходимо для связывания `GplayScreen` с соответствующим пакетом для удобства дальнейшей поддержки теста. <br/> 
 > Для выяснения точного названия пакета можно воспользоваться Android Monitor из Android SDK
 <br/> Затем декларируем UI-элементы нужного экрана через поиск с использованием matcher-ов. UiAutomator предоставляет поддержку различных типов View:
-<br/> UiView
-<br/> UiEditText
-<br/> UiTextView
-<br/> UiButton
-<br/> UiCheckbox
-<br/> UiChipGroup
-<br/> UiSwitchView
-<br/> UiScrollView
-<br/> and more
+<br/> * `UiView`
+<br/> * `UiEditText`
+<br/> * `UiTextView`
+<br/> * `UiButton`
+<br/> * `UiCheckbox`
+<br/> * `UiChipGroup`
+<br/> * `UiSwitchView`
+<br/> * `UiScrollView`
+<br/> * and more
 <br/> Как и с UiAutomator можно комбинировать несколько matcher-ов для поиска нужной View:
 ````Kotlin
 val email = UiEditText {
@@ -36,9 +36,9 @@ val email = UiEditText {
 ````
 ## Рассмотрим код теста
 <br/> Представленный ниже код теста состоит из 3 шагов:
-<br/> Принудительной остановкой приложения Google Play
-<br/> Открытия приложения Google Play
-<br/> Проверки запроса авторизации
+<br/> * Принудительной остановкой приложения Google Play
+<br/> * Открытия приложения Google Play
+<br/> * Проверки запроса авторизации
 ```` Kotlin
 class GplayTest: TestCase() {
 
@@ -73,10 +73,10 @@ class GplayTest: TestCase() {
 > Для успешного выполнения этого теста потребуется разрешение на Интернет и запущенный AdbServer
 <br/> Работу первого шага не будем детально разбирать (примеры с `adbServer` можно зайти в примере [Выполнение команд adb в тесте Kaspresso](https://azamatcherchesov.github.io/github_pages/Tutorial/adb_commands/#adb)). Вызов `device.targetContext` возвращет котекст тестируемого приложения, с помощью которого осуществляется открытие приложения Google Play.
 <br/> UI-элементы другого приложения можно искать не только по тексту. Доступны несколько видов matcher-ов:
-<br/> withId
-<br/> withText
-<br/> withPackage
-<br/> withContentDescription
-<br/> textStartsWith
-<br/> and more
+<br/> * `withId`
+<br/> * `withText`
+<br/> * `withPackage`
+<br/> * `withContentDescription`
+<br/> * `textStartsWith`
+<br/> * and more
 <br/> Чтобы понять, по каким параметрам можно обратиться к нужному UI-элементу можно воспользоваться Layout Inspector и Uiautomatorviewer в Android Studio
