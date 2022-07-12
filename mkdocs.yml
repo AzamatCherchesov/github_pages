@@ -61,6 +61,8 @@ nav:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
     - Executing adb command in Kaspresso: Documentation/Executing adb commands in Kaspresso.md
     - Kaspresso docs: Documentation/kaspresso/index.md
+    - KAutomator docs: Documentation/kautomator/index.md
+    - ADB Server: Documentation/adb-server/index.md
   - Tutorial:
     - Ваш первый тест на Kaspresso: Tutorial/simple_test.md
     - Тестирование за рамками приложения: Tutorial/off-screen_work.md
