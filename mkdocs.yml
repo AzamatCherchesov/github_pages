@@ -60,6 +60,7 @@ nav:
   - Documentation:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
     - Executing adb command in Kaspresso: Documentation/Executing adb commands in Kaspresso.md
+    - Kaspresso: Documentation/Kasspresso/index.md
   - Tutorial:
     - Ваш первый тест на Kaspresso: Tutorial/simple_test.md
     - Анализ результата прогона теста: Tutorial/test_analysis.md
