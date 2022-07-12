@@ -64,7 +64,7 @@ nav:
     - Ваш первый тест на Kaspresso: Tutorial/simple_test.md
     - Анализ результата прогона теста: Tutorial/test_analysis.md
     - Тестирование за рамками приложения: Tutorial/off-screen_work.md
-    - Нестабильный recycler view. Сontinuously, compose.: Tutorial/Flaky safely test with recycler view.md
+    - Flaky safely. Сontinuously, compose.: Tutorial/Flaky safely.md
     - Использование сценариев в Kaspresso: Tutorial/Kaspresso_scenario.md
     - Выполнение adb-команд: Tutorial/adb_commands.md
     - Взаимодействуем с Android вне приложения: Tutorial/Device.md 
