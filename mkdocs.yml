@@ -63,7 +63,6 @@ nav:
     - Kaspresso docs: Documentation/kaspresso/index.md
   - Tutorial:
     - Ваш первый тест на Kaspresso: Tutorial/simple_test.md
-    - Анализ результата прогона теста: Tutorial/test_analysis.md
     - Тестирование за рамками приложения: Tutorial/off-screen_work.md
     - Flaky safely. Сontinuously, compose.: Tutorial/Flaky safely.md
     - Использование сценариев в Kaspresso: Tutorial/Kaspresso_scenario.md
