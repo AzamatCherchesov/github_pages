@@ -59,6 +59,7 @@ nav:
     - About Kaspresso: Home/Kaspresso.md
     - Kaspresso in articles: Home/Kaspresso-in-articles.md
     - Kasspresso in videos: Home/Kaspresso-in-videos.md
+    - Kaspresso users: Home/Kaspresso users.md
   - Documentation:
     - Page object pattern in Kaspresso: Documentation/PageObject.md
     - Executing adb command in Kaspresso: Documentation/Executing adb commands in Kaspresso.md
