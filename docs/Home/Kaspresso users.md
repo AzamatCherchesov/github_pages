@@ -2,33 +2,33 @@
 <table>
  	<tr>
   		<td>
-            <a href="https://www.kaspersky.ru"><img src="./users/kaspersky.svg" width="140" height="140" alt="www.kaspersky.ru"></a>
+            <a href="https://www.kaspersky.ru"><img src="../users/kaspersky.svg" width="140" height="140" alt="www.kaspersky.ru"></a>
         </td>
         <td>
-            <a href="https://hh.ru"><img src="./users/hh.png" width="140" alt="hh.ru"></a>
+            <a href="https://hh.ru"><img src="../users/hh.png" width="140" alt="hh.ru"></a>
         </td>
         <td>
-            <a href="https://aliexpress.ru"><img src="./users/aliexpress.svg" width="140" height="140"  alt="aliexpress.ru"></a>
+            <a href="https://aliexpress.ru"><img src="../users/aliexpress.svg" width="140" height="140"  alt="aliexpress.ru"></a>
         </td>
         <td>
-            <a href="https://www.sber.ru"><img src="./users/sberbank.svg" width="140" height="140"  alt="www.sber.ru"></a>
+            <a href="https://www.sber.ru"><img src="../users/sberbank.svg" width="140" height="140"  alt="www.sber.ru"></a>
         </td>
         <td>
-            <a href="https://www.revolut.com"><img src="./users/revolut.svg" width="140" height="140"  alt="www.revolut.com"></a>
+            <a href="https://www.revolut.com"><img src="../users/revolut.svg" width="140" height="140"  alt="www.revolut.com"></a>
         </td>
  	</tr>
  	<tr>
         <td>
-            <a href="https://www.delivery-club.ru"><img src="./users/delivery_club.png" width="140" alt="www.delivery-club.ru"></a>
+            <a href="https://www.delivery-club.ru"><img src="../users/delivery_club.png" width="140" alt="www.delivery-club.ru"></a>
         </td>
         <td>
-            <a href="https://www.vtb.ru"><img src="./users/vtb.svg" width="140" height="140"  alt="www.vtb.ru"></a>
+            <a href="https://www.vtb.ru"><img src="../users/vtb.svg" width="140" height="140"  alt="www.vtb.ru"></a>
         </td>
         <td>
-            <a href="https://www.tinkoff.ru"><img src="./users/tinkoff.svg" width="140" height="140" alt="www.tinkoff.ru"></a>
+            <a href="https://www.tinkoff.ru"><img src="../users/tinkoff.svg" width="140" height="140" alt="www.tinkoff.ru"></a>
         </td>
         <td>
-            <a href="https://www.x5.ru"><img src="./users/x5.svg" width="140" height="140"  alt="www.x5.ru"></a>
+            <a href="https://www.x5.ru"><img src="../users/x5.svg" width="140" height="140"  alt="www.x5.ru"></a>
         </td>
         <td>
             <a href="https://www.zen.yandex.ru"><img src="./users/yandex_zen.svg" width="140" height="140"  alt="www.zen.yandex.ru"></a>
