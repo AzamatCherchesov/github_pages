@@ -24,7 +24,7 @@ class LoginScenario(private val account: Account): Scenario() {
     }
 }
 ```
-
+<br> При наследовании Scenario необходимо переопределить последовательность шагов, общие для нескольких тестов.
 <br/> Использование из кода теста:
 ```kotlin
 @Test
@@ -43,3 +43,4 @@ fun test() =
         }
     }
 ```
+<br/> При вызове `scenario(MykSignInScenarioWithActivation(testAccount1))` его шаги будут встроены в последовательность шагов самого теста.
