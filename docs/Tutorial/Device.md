@@ -54,21 +54,21 @@ class WiFiTest: TestCase() {
 ````
 ## Фасадный класс Device
 <br/> Для взаимодействия с операционной системой Android Kaspresso предоставляет фасадный класс Device. Device содержит много говорящих интерфейсов для взаимодействия с различными сущностями Android:
-<br> Apps - позволяет устанавливать или удалять приложения. Использует команды `adb install` и `adb uninstall`. См. пример DeviceAppSampleTest.
-<br> Activity — это интерфейс для работы с отображаемыми в данный момент Activity. AdbServer не требуется. См. пример DeviceActivitiesSampleTest.
-<br> Files - обеспечивает возможность отправки или удаления файлов с устройства. Использует команды `adb push` и `adb rm` и не требует разрешения `android.permission.WRITE_EXTERNAL_STORAGE`. См. пример DeviceFilesSampleTest.
-<br> Internet - позволяет переключать настройки Wi-Fi и передачи данных по сети. Будьте осторожны при использовании этого интерфейса, изменения настроек Wi-Fi могут не работать с некоторыми версиями Android. См. пример DeviceNetworkSampleTest.
-<br> Keyboard — это интерфейс для отправки ключевых событий через `adb`. Используйте его только тогда, когда Espresso или UiAutomator не подходят (например, экран заблокирован). См. пример DeviceKeyboardSampleTest.
-<br> Location - эмулирует поддельное местоположение и позволяет переключать настройки GPS. См. пример DeviceLocationSampleTest.
-<br> Telephone - позволяет эмулировать входящие вызовы и принимать SMS-сообщения. Работает только на эмуляторах, т.к. использует команды `adb emu`. См. пример DevicePhoneSampleTest.
-<br> Screenshots — скриншоты отображаемой в данный момент Activity. Требуется разрешение `android.permission.WRITE_EXTERNAL_STORAGE`. См. пример DeviceScreenshotSampleTest.
-<br> Accessibility - позволяет включать или отключать службы специальных возможностей. Доступно с API 24. См. пример DeviceAccessibilitySampleTest.
+<br>     - Apps - позволяет устанавливать или удалять приложения. Использует команды `adb install` и `adb uninstall`. См. пример DeviceAppSampleTest.
+<br>     - Activity — это интерфейс для работы с отображаемыми в данный момент Activity. AdbServer не требуется. См. пример DeviceActivitiesSampleTest.
+<br>     - Files - обеспечивает возможность отправки или удаления файлов с устройства. Использует команды `adb push` и `adb rm` и не требует разрешения `android.permission.WRITE_EXTERNAL_STORAGE`. См. пример DeviceFilesSampleTest.
+<br>     - Internet - позволяет переключать настройки Wi-Fi и передачи данных по сети. Будьте осторожны при использовании этого интерфейса, изменения настроек Wi-Fi могут не работать с некоторыми версиями Android. См. пример DeviceNetworkSampleTest.
+<br>     - Keyboard — это интерфейс для отправки ключевых событий через `adb`. Используйте его только тогда, когда Espresso или UiAutomator не подходят (например, экран заблокирован). См. пример DeviceKeyboardSampleTest.
+<br>     - Location - эмулирует поддельное местоположение и позволяет переключать настройки GPS. См. пример DeviceLocationSampleTest.
+<br>     - Telephone - позволяет эмулировать входящие вызовы и принимать SMS-сообщения. Работает только на эмуляторах, т.к. использует команды `adb emu`. См. пример DevicePhoneSampleTest.
+<br>     - Screenshots — скриншоты отображаемой в данный момент Activity. Требуется разрешение `android.permission.WRITE_EXTERNAL_STORAGE`. См. пример DeviceScreenshotSampleTest.
+<br>     - Accessibility - позволяет включать или отключать службы специальных возможностей. Доступно с API 24. См. пример DeviceAccessibilitySampleTest.
 разрешения предоставляют возможность разрешать или отклонять запросы разрешений через диалоговое окно разрешений Android по умолчанию. См. пример DevicePermissionsSampleTest.
-<br> HackPermissions предоставляет возможность разрешать любые запросы разрешений без диалога разрешений Android по умолчанию. См. пример DeviceHackPermissionsSampleTest.
-<br> Exploit - позволяет вращать устройство или нажимать системные кнопки. См. пример DeviceExploitSampleTest.
+<br>     - HackPermissions предоставляет возможность разрешать любые запросы разрешений без диалога разрешений Android по умолчанию. См. пример DeviceHackPermissionsSampleTest.
+<br>     - Exploit - позволяет вращать устройство или нажимать системные кнопки. См. пример DeviceExploitSampleTest.
 язык позволяет переключать язык. См. пример DeviceLanguageSampleTest.
-<br> Logcat - предоставляет доступ к adb logcat. См. пример DeviceLogcatSampleTest.
-<br> UiDevice - возвращает экземпляр `android.support.test.uiautomator.UiDevice`. Мы не рекомендуем использовать его напрямую, потому что есть `Kaautomator`, который предлагает более читаемый, предсказуемый и стабильный API для работы вне Вашего приложения.
+<br>     - Logcat - предоставляет доступ к adb logcat. См. пример DeviceLogcatSampleTest.
+<br>     - UiDevice - возвращает экземпляр `android.support.test.uiautomator.UiDevice`. Мы не рекомендуем использовать его напрямую, потому что есть `Kaautomator`, который предлагает более читаемый, предсказуемый и стабильный API для работы вне Вашего приложения.
 <br> Также Device предоставляет контексты приложений и тестов — targetContext и context.<br/>
 ## Реализуем второй тест. Проверяем корректный статус WiFi после поворота экрана.
 ```` Kotlin
