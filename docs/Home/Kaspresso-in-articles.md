@@ -1,7 +1,6 @@
 # Kaspresso in articles
-[RU] [Дмитрий Мовчан, Евгений Мацюк — Как начать писать автотесты и не сойти с ума](https://youtu.be/q_8UUhVDV7c) <br>
-[RU] [Егор Курников — Единственное, что вам нужно для UI-тестирования](https://youtu.be/cTykctRSmuA) <br>
-[RU] [Воркшоп по автотестам. 19-12-2019](https://www.youtube.com/watch?v=FExlaWfKENI) <br>
-[RU] ["Kaspresso" с Евгением Мацюком и Егором Курниковым](https://www.youtube.com/watch?v=vHkoxOfwbDg&feature=youtu.be) <br>
-[RU] [Kaspresso: Q&A Session 9.04.20](https://www.youtube.com/watch?v=Jqnn_CDcjK0&feature=youtu.be) <br>
-[EN] [Eugene Matsyuk — How to start writing autotests and not go crazy](https://www.youtube.com/watch?v=xiVDqMlTdbM&feature=youtu.be) <br>
+
+
+
+[RU] [Евгений Мацюк — Kaspresso: фреймворк для автотестирования, который вы ждали](https://habr.com/ru/company/kaspersky/blog/467617/) <br>
+[EN] [Eugene Matsyuk — Kaspresso: The autotest framework that you have been looking forward to. Part I](https://proandroiddev.com/kaspresso-the-autotest-framework-that-you-have-been-looking-forward-to-part-i-e102ed384d11) <br>
