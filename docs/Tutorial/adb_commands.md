@@ -51,8 +51,7 @@ class AdbTest : TestCase() {
 <br/> В Kaspresso для работы с adb есть специальная абстракция `AdbServer`. Экземлпяр этого класса доступен в `BaseTestContext` и в `BaseTestCase`. На примере теста `AdbTest` показана возможность выполнения трех видов команд: `cmd`, `adb` и `adb shell`.
 
 <br/> 
-> Для корректной работы необходимо разрешение `<uses-permission android:name="android.permission.INTERNET" />`
-        
+> Для корректной работы необходимо разрешение `android.permission.INTERNET` <br/>       
 ## Разные сценарии запуска AdbServer
 
 <br/> AdbServer можно запускать с разными флагами. Например, так: 
