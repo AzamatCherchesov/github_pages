@@ -70,6 +70,12 @@ class WiFiTest: TestCase() {
 <br>     - Logcat - предоставляет доступ к adb logcat. См. пример DeviceLogcatSampleTest.
 <br>     - UiDevice - возвращает экземпляр `android.support.test.uiautomator.UiDevice`. Мы не рекомендуем использовать его напрямую, потому что есть `Kaautomator`, который предлагает более читаемый, предсказуемый и стабильный API для работы вне Вашего приложения.
 <br> Также Device предоставляет контексты приложений и тестов — targetContext и context.<br/>
+
+3. Layout correctness:
+     - Multiline text does not cut off
+     - No view overlapping on visibility changes
+     - Proper view alignment under different screen densities and/or font sizes
+     - Text, icons and UI alignment on RTL & LTR languages, among other language related issues
 ## Реализуем второй тест. Проверяем корректный статус WiFi после поворота экрана.
 ```` Kotlin
 
