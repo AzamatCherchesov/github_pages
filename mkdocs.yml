@@ -87,11 +87,11 @@ nav:
     - KAutomator docs: Documentation/kautomator/index.md
     - ADB Server: Documentation/adb-server/index.md
 
-extra:
- alternate:
-   - name: English
-     link: /en/
-     lang: en
-   - name: Russian
-     link: /ru/
-     lang: ru
+# extra:
+#  alternate:
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: Russian
+#      link: /ru/
+#      lang: ru
