@@ -203,7 +203,7 @@ All of this pushed UI Automator authors to introduce the following algorithm: UI
 
 Perhaps, described solution made UI Automator more stable. But, the speed crashed, no doubts.
 
-Kautomator is a DSL over UI Automator that provides a [mechanism of interceptors](../wiki/03_Kaspresso_configurator.md#kaspresso-interceptors-based-on-kakaokautomator-interceptors). Kaspresso offers a big set of default interceptors which eliminates any potential flaky action. So, Kaspresso + Kautomator helps UI Automator to struggle with flakiness.
+Kautomator is a DSL over UI Automator that provides a [mechanism of interceptors](../Wiki/Kaspresso_configurator.md#kaspresso-interceptors-based-on-kakaokautomator-interceptors). Kaspresso offers a big set of default interceptors which eliminates any potential flaky action. So, Kaspresso + Kautomator helps UI Automator to struggle with flakiness.
 
 After some time, we thought why we need to save artificial timeouts inside UI Automator while Kaspresso + Kautomator does the same work. Have a look at the measure example:
 ```kotlin
