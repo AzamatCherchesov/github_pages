@@ -73,8 +73,6 @@ nav:
   - Wiki:
     - Page object in Kaspresso: Wiki/Page object in Kaspresso.md
   - Documentation:
-    - Page object pattern in Kaspresso: Documentation/PageObject.md
-    - Executing adb command in Kaspresso: Documentation/Executing adb commands in Kaspresso.md
     - Kaspresso docs: Documentation/kaspresso/index.md
     - KAutomator docs: Documentation/kautomator/index.md
     - ADB Server: Documentation/adb-server/index.md
