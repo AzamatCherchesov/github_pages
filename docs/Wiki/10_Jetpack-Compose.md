@@ -1,4 +1,4 @@
- Jetpack Compose support [Early access]
+# Jetpack Compose support [Early access]
 
 **Keep in mind it's early access that may contain bugs. Also, API can be changed, but we are going to avoid it. Be free to create relative issues if you've encountered with any kind of problem.**
 
@@ -26,21 +26,25 @@ class ComposeMainScreen(semanticsProvider: SemanticsNodeInteractionsProvider) :
         // 'viewBuilderAction' param is nullable.
         viewBuilderAction = { hasTestTag("ComposeMainScreen") }
 ) {
+
     // You can set clear parent-child relationship due to 'child' extension
     // Here, 'simpleFlakyButton' is a child of 'ComposeMainScreen' (that is Node too)
     val simpleFlakyButton: KNode = child {
         hasTestTag("main_screen_simple_flaky_button")
     }
 }
+
 // This annotation is here to make the test is appropriate for JVM environment (with Robolectric)
 @RunWith(AndroidJUnit4::class)
 // Test class declaration
 class ComposeSimpleFlakyTest : TestCase(
     kaspressoBuilder = Kaspresso.Builder.withComposeSupport()
 ) {
+
     // Special rule for Compose tests
     @get:Rule
     val composeTestRule = createAndroidComposeRule<JetpackComposeActivity>()
+
     // Test DSL. It's so similar to Kakao or Kautomator DSL
     @Test
     fun test() = run {
@@ -52,6 +56,7 @@ class ComposeSimpleFlakyTest : TestCase(
                 }
             }
         }
+
         step("Click on the First button") {
             onComposeScreen<ComposeSimpleFlakyScreen>(composeTestRule) {
                 firstButton {
@@ -160,6 +165,7 @@ class ComposeCustomizeTest : TestCase(
         }.toMutableList()
     }
 )
+
 // We edit flakySafetyParams and semanticsBehaviorInterceptors
 // Also, we change semanticsBehaviorInterceptors where we exclude SystemDialogSafetySemanticsBehaviorInterceptor
 class ComposeCustomizeTest : TestCase(
@@ -180,6 +186,7 @@ class ComposeCustomizeTest : TestCase(
         // For example, changing flakySafetyParams in this section will not affect ComposeSupport interceptors
     }
 )
+
 // There is another way to do exactly the same
 class ComposeCustomizeTest : TestCase(
     kaspressoBuilder = Kaspresso.Builder.simple {
@@ -208,3 +215,4 @@ Sweet Kaspresso extensions means using of the such constructions as
 - `continuously`
 
 The support of some constructions is in progress: [issue-317](https://github.com/KasperskyLab/Kaspresso/issues/317).
+

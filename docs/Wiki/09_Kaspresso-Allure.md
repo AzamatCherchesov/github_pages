@@ -21,6 +21,7 @@ android {
     }
     //...
 }
+
 dependencies {
     //...
     androidTestImplementation "com.kaspersky.android-components:kaspresso-allure-support:<latest_version>"
@@ -75,9 +76,12 @@ class AllureSupportCustomizeTest : TestCase(
 }
 ```
 [**kaspresso-allure-support-sample**](../samples/kaspresso-allure-support-sample/src/androidTest/kotlin/com/kaspersky/kaspresso/alluresupport/sample) is available to watch, to launch and to experiment with all of this staff.
+
 ## _Watch result_
 So you added the list of needed Allure-supporting interceptors to your Kaspresso configuration and launched the test. After the test finishes there will be **sdcard/allure-results** dir created on the device with all the files processed to be included to Allure-report.
+
 This dir should be moved from the device to the host machine which will do generate the report.
+
 For example, you can use **adb pull** command on your host for this. Let say you want to locate the data for the report at **/Users/username/Desktop/allure-results**, so you call:
 ```
 adb pull /sdcard/allure-results /Users/username/Desktop
@@ -97,7 +101,9 @@ Select the needed device and call:
 adb -s emulator-5554 pull /sdcard/allure-results /Users/username/Desktop
 ```
 And that's it, the **allure-results** dir with all the test resources is now at **/Users/username/Desktop**.
+
 Now, we want to generate and watch the report. The Allure server must be installed on our machine for this. To find out how to do it with all the details please follow the [**Allure docs**](https://docs.qameta.io/allure/).
+
 For example to install Allure server on MacOS we can use the following command:
 ```
 brew install allure
@@ -107,6 +113,7 @@ Now we are ready to generate and watch the report, just call:
 allure serve /Users/username/Desktop/allure-results
 ```
 Next, the Allure server generates the html-page representing the report and puts it to temp dir in your system. You will see the report opening in the new tab in your browser (the tab is opening automatically).
+
 If you want to save the generated html-report to a specific dir for future use you can just call:
 ```
 allure generate -o ~/kaspresso-allure-report /Users/username/Desktop/allure-results
@@ -117,10 +124,13 @@ allure open ~/kaspresso-allure-report
 ```
 After all of this actions you see something like:
 ![](https://habrastorage.org/webt/9e/i1/ks/9ei1ks9txbqzquyk5egywvqxj6k.png)
+
 Details for succeeded test:
 ![](https://habrastorage.org/webt/tq/t7/ch/tqt7chcdczrgduhoukqhx1ertfc.png)
+
 Details for failed test:
 ![](https://habrastorage.org/webt/z_/ml/bj/z_mlbjspdd8uvkw4t3cafh6-g6k.png)
+
 ## _Details that you need to know_
 By default, Kaspresso-Allure introduces additional timeouts to assure the correctness of a Video recording as much as possible. To summarize, these timeouts increase a test execution time by 5 seconds.
 You are free to change these values by customizing `videoParams` in `Kaspresso.Builder`. See the example above.
