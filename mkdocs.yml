@@ -86,6 +86,11 @@ nav:
     - Kaspresso docs: Documentation/kaspresso/index.md
     - KAutomator docs: Documentation/kautomator/index.md
     - ADB Server: Documentation/adb-server/index.md
+    
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 # extra:
 #  alternate:
